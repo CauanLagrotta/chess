@@ -1,16 +1,10 @@
-import React from 'react';
-import Homepage from './components/homepage/homepage.jsx';
-import './index.css';
+import { BrowserRouter } from 'react-router-dom'
+import { Router } from './router'
 
-function App() {
-    return (
-        <div>
-            <Homepage />
-
-        </div>  
-
-        
-    );
+export function App() {
+  return (
+    <BrowserRouter>
+        <Router />
+    </BrowserRouter>
+  )
 }
-
-export default App;

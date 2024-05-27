@@ -9,7 +9,9 @@ function Homepage() {
 
     <div>
       <Header />
-      
+      <Container />
+      <Container2 />
+      <Footer />
     </div>
 
   )
