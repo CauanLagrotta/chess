@@ -5,7 +5,7 @@ export function Container2() {
   return (
     <div className="flex">
       <div className="ml-10 mt-10">
-        <img id="containerImage2" src={mainimg2} alt="idoso jogando xadrez" />
+        <img id="containerImage2" src={mainimg2} alt="meninos jogando xadrez" />
       </div>
 
       <div className="tracking-wider mt-10 ml-10 mr-10">
