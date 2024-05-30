@@ -11,6 +11,7 @@ export const data = [
         estudantes que jogam xadrez regularmente apresentam melhor
         desempenho em testes de resolução de problemas em comparação com
         aqueles que não jogam .`
+        
     },
     {
         title: 'Melhoria na Habilidade de Resolução de Problemas',
