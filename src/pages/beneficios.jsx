@@ -7,7 +7,7 @@ export function Beneficios() {
   return (
     <div>
         < Header />
-          < ContainerBeneficios />       
+        < ContainerBeneficios />
         < Footer />
     </div>
   )

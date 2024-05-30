@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #containerImage{
   width: 180em;
   height: 25em;
@@ -8,11 +14,13 @@
   height: 25em;
 }
 
-/* #container-beneficios {
-  background-image: url('../assets/images/bg-beneficios.png');
-  background-repeat: no-repeat;
-  background-size: auto;
-  height: 100vh;
-} */
-
+#container-beneficios {
+  background-image: url('../assets/images/bgBeneficios.png');
+  background-size: cover; 
+  height: max-content;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 

@@ -3,7 +3,7 @@ import "./container.css";
 
 export function Container2() {
   return (
-    <div className="flex">
+    <div className="flex p-10">
       <div className="ml-10 mt-10">
         <img id="containerImage2" src={mainimg2} alt="meninos jogando xadrez" />
       </div>
