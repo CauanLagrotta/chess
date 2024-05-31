@@ -19,6 +19,7 @@ export function ContainerBeneficios() {
               description={item.description}
               button={item.button}
               paragrafo={item.paragrafo}
+              voltar={item.voltar}
             />
           ))}
         </div>
