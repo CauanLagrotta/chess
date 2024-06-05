@@ -6,6 +6,8 @@ import bispo from '../assets/images/bispo.png';
 import rei from '../assets/images/rei.png';
 import dama from '../assets/images/dama.png';
 
+//testando 
+
 const images = [peao, torre, cavalo, bispo, rei, dama];
 
 export function ContainerComojogar() {
