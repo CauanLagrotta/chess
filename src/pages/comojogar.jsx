@@ -1,7 +1,14 @@
+import { Header } from "../components/header.jsx";
+import { ContainerComojogar } from "../components/container-comojogar.jsx";
+import { Footer } from "../components/footer.jsx";
+
+
 export function Comojogar()  {
   return (
     <div>
-      <h1>Como Jogar</h1>
+      <Header />
+      <ContainerComojogar />
+      
     </div>
   )
 }
