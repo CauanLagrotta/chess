@@ -83,4 +83,5 @@ export const data = [
         paragrafo: `Um estudo feito pela Universidade de Michigan, publicado na revista "Chess Studies", descobriu que jogadores de xadrez tendem a exibir níveis mais altos de paciência e resiliência em comparação com não jogadores. O processo de planejar e executar estratégias no xadrez, mesmo quando enfrentam desafios ou contratempos, fortalece a capacidade dos jogadores de lidar com a frustração e manter o foco em seus objetivos a longo prazo.`,
         voltar: 'clique para voltar'
     },
+
 ]

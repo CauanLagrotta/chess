@@ -5,8 +5,7 @@ import cavalo from '../assets/images/cavalo.png';
 import bispo from '../assets/images/bispo.png';
 import rei from '../assets/images/rei.png';
 import dama from '../assets/images/dama.png';
-
-//testando 
+import 'boxicons/css/boxicons.min.css';
 
 const images = [peao, torre, cavalo, bispo, rei, dama];
 
@@ -27,23 +26,29 @@ export function ContainerComojogar() {
                 <h1 className="text-5xl font-bold text-gray-600 mb-3">Como jogar</h1>
             </div>
 
-            <section className="w-full h-screen flex items-center">
-                <div className="flex h-1/2 items-center relative bg-black">
-                    <div className="absolute flex h-full items-center">
-                        <button type="button" className="bg-white px-2 py-4 ml-1" onClick={previous}>
-                            Anterior
-                        </button>
+            <section className="w-full h-screen flex items-center justify-center">
+                <div className="flex h-1/2 items-center relative w-auto">
+
+                    <button type="button" className="absolute left-0 px-2 py-4" onClick={previous}>
+                        <i className='bx bx-chevron-left bx-lg'></i>
+                    </button>
+
+                    
+                <div className="w-auto flex border-solid border-2 gap-12 border-[#000]">
+                    <div className="w-96 flex  ">
+                        
+                        
                     </div>
-
-                    <div className="w-full flex justify-center items-center overflow-hidden">
+                    <div className="w-full flex justify-center overflow-hidden border-solid">
                         <img src={images[currentImageIndex]} alt="peça de xadrez" className="object-contain h-96" />
-                    </div>    
+                    </div>
+                </div>
+                    
 
-                    <div className="absolute right-0 flex h-full items-center">
-                        <button type="button" className="bg-white px-2 py-4 mr-1" onClick={next}>
-                            Próximo
-                        </button>
-                    </div>                
+                    <button type="button" className="absolute right-0 px-2 py-4" onClick={next}>
+                        <i className='bx bx-chevron-right bx-lg'></i>
+                    </button>
+
                 </div>
             </section>
         </div>
