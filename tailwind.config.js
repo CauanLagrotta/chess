@@ -4,6 +4,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    extend: {
+      dropShadow: {
+        
+      }
+    },
+  },
+  variants: {
     extend: {},
   },
   plugins: [],
