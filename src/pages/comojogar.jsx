@@ -8,7 +8,7 @@ export function Comojogar()  {
     <div>
       <Header />
       <ContainerComojogar />
-      
+      <Footer/>
     </div>
   )
 }

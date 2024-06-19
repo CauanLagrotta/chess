@@ -1,7 +1,10 @@
+import { Header } from "../components/header.jsx";
+
 export function Jogar() {
     return (
         <div>
-            <h1>Jogar</h1>
+            <Header/>
+            
         </div>
     );
 }
