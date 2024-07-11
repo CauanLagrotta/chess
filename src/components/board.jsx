@@ -1,4 +1,4 @@
-
+import React from 'react'
 
 export default function Board({board}) {
     return (
@@ -10,5 +10,5 @@ export default function Board({board}) {
 
             ))}
         </div>
-    );
+    )
 }   
