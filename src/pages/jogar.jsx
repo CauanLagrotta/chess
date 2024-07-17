@@ -1,5 +1,5 @@
-import { Header } from "../components/header.jsx";
-import { ContainerJogar} from "../components/container-jogar.jsx";
+import {Header} from '../components/header'
+import {ContainerJogar} from "../components/container-jogar";
 
 export function Jogar() {
     return (

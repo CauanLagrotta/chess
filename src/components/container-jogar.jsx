@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { gameSubject } from './game';
-import { Board } from './board';
+import Board from './board';
 import './chessboard.css';
 
 export function ContainerJogar() {
